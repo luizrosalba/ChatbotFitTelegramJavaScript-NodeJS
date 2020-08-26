@@ -52,4 +52,18 @@ Solicitamos seu cartão de crédito para ter certeza de que você não é um rob
 - pode-se definir a inteção padrão ( quando a pergunta não está cadastrada)
 - cadastrar o maior conjunt ode agentes possiveis para melhorar a responsividade 
 - podemos saber em qual intent ele cai olhando a resposta em JSON 
+-  parte 6 inserindo busca de videos 
+- https://www.npmjs.com/package/youtube-node
+- npm install youtube-node --save
+- precisamos de uma key para fazer a busca 
+- no google cloud 
+- https://developers.google.com/youtube/v3/getting-started
+- https://developers.google.com/youtube/v3/quickstart/nodejs
+- Use this wizard to create or select a project in the Google Developers Console and automatically turn on the API. Click Continue, then Go to credentials.
+- selecionar o projeto criado no dialogflow 
+- youtubedata apiv3
+- servidor web nodejs 
+- dados publicos
+- preciso de quais credenciais 
+- obtive a chave das crednciais 
 - 
