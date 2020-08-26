@@ -51,4 +51,5 @@ Solicitamos seu cartão de crédito para ter certeza de que você não é um rob
 - pode-se definir as respostar 
 - pode-se definir a inteção padrão ( quando a pergunta não está cadastrada)
 - cadastrar o maior conjunt ode agentes possiveis para melhorar a responsividade 
+- podemos saber em qual intent ele cai olhando a resposta em JSON 
 - 

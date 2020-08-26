@@ -1,1 +1,11 @@
-/// aqui vao haver varias infos da chave gerada do  bot no formato json eu nao c riei pois precisa de cartão de crédito 
+{
+    "type": "info1", 
+    "project_id": "info2", 
+    "private_key": "info3", 
+    "client_email":                 "info4", 
+    "client_id":                    "info5", 
+    "auth_uri":                     "info6", 
+    "token_uri":                    "info7", 
+    "auth_provider_x509_cert_url":  "info8", 
+    "client_x509_cert_url":         "info9"
+}
