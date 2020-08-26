@@ -1,4 +1,4 @@
-gitignore
+.gitignore
 sensitive.info
 node_modules
 yt-config.json
