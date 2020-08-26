@@ -15,3 +15,23 @@ Keep your token secure and store it safely, it can be used by anyone to control 
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 ``` 
+
+- gerenciador de versões no node para linux e mac 
+-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+- nvm list lista as versões do node que vc possui 
+- npm init
+- https://www.npmjs.com/package/node-telegram-bot-api
+- npm i node-telegram-bot-api --save (atualiza seu packjson )
+- clica no link do bot t.me/nome_do_seu_bot
+- para conversar usaremos o dialog flow (ferramenta do google para processamento de linguagem natural e criar uma interface de conversa)
+- pode-se criar agentes de bots mas precisa de cartao de credito para cadastrar :( 
+```
+Acesso a todos os produtos do Cloud Platform
+Tenha tudo o que você precisa para criar e executar apps, sites e serviços, incluindo o Firebase e a API Google Maps.
+
+Crédito de US$ 300 gratuito
+Use o Google Cloud com US$ 300 em crédito para gastar nos próximos 90 dias
+
+Nenhuma cobrança automática será feita após o término do período de teste gratuito
+Solicitamos seu cartão de crédito para ter certeza de que você não é um robô. Você não será cobrado, a menos que atualize manualmente para uma conta paga.
+```
