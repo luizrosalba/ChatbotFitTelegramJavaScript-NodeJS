@@ -1,9 +1,9 @@
 # ChatbotFitTelegramJavaScript-NodeJS
 ## Construindo um ChatbotFit no Telegram com JavaScript e NodeJS
 Neste projeto construimos um  chatbot do telegram em um server nodejs que ao inserir uma pergunta cadastrada no dialogflow , responde com um vídeo relacionado à pergunta, neste exemplo, fizemos perguntas relacionadas à treinos de academia. Quando o usuário pergunta ao telegram : 
-- Me manda um vídeo de bíceps 
-O bot responde com 2 vídeos de bíceps para o usuário 
--### Início : 
+<br> Me manda um vídeo de bíceps 
+<br> O bot responde com 2 vídeos de bíceps para o usuário 
+### Início : 
 - @BotFather 
 - conjunto de comandos para acessar o bot 
 -  /newbot
