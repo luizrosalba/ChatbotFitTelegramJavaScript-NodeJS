@@ -35,3 +35,10 @@ Use o Google Cloud com US$ 300 em crédito para gastar nos próximos 90 dias
 Nenhuma cobrança automática será feita após o término do período de teste gratuito
 Solicitamos seu cartão de crédito para ter certeza de que você não é um robô. Você não será cobrado, a menos que atualize manualmente para uma conta paga.
 ```
+- pode-se escolher as linguagens 
+- em new agent : create_new_project -> create 
+- em new agent 
+- adicionar um service account 
+- pegar as credenciais geradas e criar uma chave em json 
+- salvar o arquivo da chave privada 
+- 
