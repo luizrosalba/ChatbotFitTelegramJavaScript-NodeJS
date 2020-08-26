@@ -41,4 +41,14 @@ Solicitamos seu cartão de crédito para ter certeza de que você não é um rob
 - adicionar um service account 
 - pegar as credenciais geradas e criar uma chave em json 
 - salvar o arquivo da chave privada 
+- comunicação com o dialog flow 
+- https://www.npmjs.com/package/dialogflow
+- npm install dialogflow
+- no site do dialogflow 
+- tem um link chamado intents ( intenções )
+- welcome 
+- Adição de frases de treinamento 
+- pode-se definir as respostar 
+- pode-se definir a inteção padrão ( quando a pergunta não está cadastrada)
+- cadastrar o maior conjunt ode agentes possiveis para melhorar a responsividade 
 - 
