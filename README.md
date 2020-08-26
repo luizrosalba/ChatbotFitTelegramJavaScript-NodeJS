@@ -83,5 +83,5 @@ Solicitamos seu cartão de crédito para ter certeza de que você não é um rob
 - Legal , vou te mandar um treino de @corpo , dá uma olhada 
 - salvar 
 -  já funciona a consulta de intenção no telegram so falta enviar os videos 
-- 
+-  agora a  consulta funciona e mostra os vídeos, projeto terminado ! 
 
