@@ -66,4 +66,22 @@ Solicitamos seu cartão de crédito para ter certeza de que você não é um rob
 - dados publicos
 - preciso de quais credenciais 
 - obtive a chave das crednciais 
+- parte 7 juntando toda a api 
+- criar uma intenção para pedir videos 
+- nome : treino específico 
+- adicionar frases de treinamento 
+- trainign phrases 
+- me manda umn video de biceps 
+- video de biceps 
+- videos de exercicios de pernas 
+- ... 
+- clicar em biceps e transformar em entidade 
+- entidade chamada corpo 
+- pode ter vários sinonimos  ex : braço (biceps ) , pernas (panturrilha , bunda , bum-bum , gluteo   )
+- se buscarmos por video sde gluteos ele identificara como a entidade @corpo 
+- e na resposta : 
+- Legal , vou te mandar um treino de @corpo , dá uma olhada 
+- salvar 
+-  já funciona a consulta de intenção no telegram so falta enviar os videos 
 - 
+

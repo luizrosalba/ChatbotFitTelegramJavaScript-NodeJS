@@ -15,5 +15,20 @@ youtube.search('Exercicio em casa para bíceps', 2,function(error,result){
     
 });
 
+function searchVideoURL(message, queryText){
+    return new Promise(resolve,reject ) =>{
+        youtube.search(`Exercício em casa para biceps ${queryText}`, 2 , functon (error, result))
+        {
+            if (!error){
+                console.log(JSON.stringify(result,null,2));
+            }
+            else{
+                resolve()
+            }
+        }
+    
+    }
+
+}
 
 /// 

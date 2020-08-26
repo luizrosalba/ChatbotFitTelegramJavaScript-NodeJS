@@ -22,12 +22,22 @@ async function sendMessage(chatId,message){
         languageCode: 'pt-BR',
       },
     },
+  }
+
+  // Send request and log result
+  const responses = await sessionClient.detectIntent(request);
+  const result = responses[0].queryResult; /// primeira resposta 
+  return { 
+    text:result.fulfillmentText,
+    intent: result.intent.displayName,
+    fields : result.parameters.fields 
+
   };
-}
-// Send request and log result
-const responses = await sessionClient.detectIntent(request);
-const result = responses[0].queryResult; /// primeira resposta 
-console.log(JSON.stringify(result,null,2));
-sendMessage('12938123','oi');
+
+};
+//console.log(JSON.stringify(result,null,2));
+
+//sendMessage('12938123','oi');
 /// inserindo busca de vídeos 
 
+module.exports.sendMessage = sendMessage; 

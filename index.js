@@ -1,5 +1,6 @@
 const TelegramBot = require ('node-telegram-bot-api')
 const bot = require ('./bot.json')
+const dialogflow = require ('./dialogflow')
  
 
 const token = bot.token_uri;
@@ -26,12 +27,19 @@ const bot = new TelegramBot(token, {polling: true}); /// pinga o server do teleg
  
 // Listen for any kind of message. There are different kinds of
 // messages.
-bot.on('message', function(msg) {
+bot.on('message', async function(msg) {
   const chatId = msg.chat.id; /// qual o chat id , a tela utilizada no TG
   console.log(msg.text);
-  bot.sendMessage(chatId, 'Obrigado por sua mensagem ');
+  
+  const dfResponde = dialogflow.sendMessage(chatId.toString(),msg.text);
+
+  if ((dfResponde).intent === 'Treino específico'){
+    
+  }
  
   // send a message to the chat acknowledging receipt of their message
   //bot.sendMessage(chatId, 'Received your message');
+  bot.sendMessage(chatId, dfResponde.text);
 
 });
+
