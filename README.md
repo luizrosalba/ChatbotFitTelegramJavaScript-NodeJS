@@ -4,6 +4,7 @@ Neste projeto construimos um  chatbot do telegram em um server nodejs que ao ins
 <br> Me manda um vídeo de bíceps 
 <br> O bot responde com 2 vídeos de bíceps para o usuário 
 ### Início : 
+- Acessar o telegram e iniciar uma convesa com :
 - @BotFather 
 - conjunto de comandos para acessar o bot 
 -  /newbot
